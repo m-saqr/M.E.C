@@ -1,0 +1,82 @@
+/* @media (min-width:320px) and (max-width:767px) */
+
+@media (min-width:320px) and (max-width:767px){
+    /*top bar */
+.top-bar{
+    display: none;
+}
+/*header */
+header{
+    display: none;
+}
+
+
+header .header__center{
+    display: none;
+}
+
+.banner{
+    background-color:var(--blueColor2);
+    flex-direction: column-reverse;
+    height: 100%;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner  .left__banner .banner__item h1,.banner-media .left__banner .banner__item h1{
+    font-size: 2.5rem;
+}
+
+.banner .left__banner .banner__item p,.banner-media .left__banner .banner__item p{
+    font-size: 1rem;
+}
+
+.banner .right__banner .pic1{
+    display: none;
+}
+
+.banner .right__banner{
+    margin-left: 20px;
+}
+
+.banner .left__banner{
+    margin-left: 20px;
+}
+
+.banner .right__banner .pic2{
+    display: block;
+
+}
+
+.banner .left__banner .banner__item .button__one,.banner-media .left__banner .banner__item .button__one{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.banner .left__banner .banner__item .button__two{
+    margin-bottom: 20px;
+}
+
+.banner .left__banner .banner__item .button__one{
+    font-size: 1.2rem;
+}
+
+.banner .left__banner .banner__item .button__two{
+    font-size: 1.2rem;
+}
+
+
+
+}
+
+
+/* @media (min-width:768px) and (max-width:1200px) */
+
+@media (min-width:768px) and (max-width:1200px){
+ 
+    header  .header__center .nav-item:last-child{
+        display: none;
+    }
+
+}
