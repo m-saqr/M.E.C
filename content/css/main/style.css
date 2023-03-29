@@ -901,6 +901,20 @@ overflow: hidden;
     flex-direction: column;
 
 }
+
+.whatsup{
+position: fixed;
+bottom: 50px;
+right: 50px;
+z-index: 2000;
+}
+
+.whatsup img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
 /* end contact us  */
 
 

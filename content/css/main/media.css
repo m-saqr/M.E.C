@@ -101,7 +101,6 @@ header{
 }
 
 .courses__content .courses__top,
-.reviews__content .reviews__top,
 .instractor__content .instractor__top
 {
     text-align: center;
@@ -181,7 +180,7 @@ header{
 }
 
 .up-background .slide1_group{
-   width: 49%;
+   width: 50%;
 }
 .courses__content {
     width: 100%;
