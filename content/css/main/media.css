@@ -16,6 +16,7 @@ header{
     box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
 
 }
+
 .banner{
     background-color:var(--blueColor2);
     flex-direction: column-reverse;
@@ -47,6 +48,7 @@ header{
 
 .banner .right__banner .pic2{
     display: block;
+    margin-top: 50px;
 
 }
 
@@ -91,7 +93,18 @@ header{
 
 .section-one .content__section1 .item__section1 p{
     font-size:1rem ;
+
 }
+
+
+.up-background{
+    display: none;
+}
+
+.up-background__media{
+    display: block;
+}
+
 
 .contact__content{
     width: 100%;
@@ -124,6 +137,7 @@ header{
     width: 100%;
     align-items: center;
     margin-bottom: 10rem;
+    overflow: hidden;
 }
 
 .contact__content .contact__bottom .right__side .content__part{
@@ -133,8 +147,6 @@ header{
     margin-left: 30%;
 
 }
-
-
 
 
 .contact__content .contact__bottom .right__side img{
@@ -242,7 +254,87 @@ footer .ul4__top li {
         font-size: 2rem;
     }
 
+    .section-one {
+        height:1400px !important;
+        padding: 3rem 0;
+    }
+    
+    .section-one .content__section1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: auto;    
+    }
+    
+    
+    .section-one .content__section1 .item__section1{
+        margin-bottom: 200px;
+    }
+    
+    .section-one .content__section1 .item__section1 h3{
+        font-size: 1.4rem;
+    }
+    
+    .section-one .content__section1 .item__section1 p{
+        font-size:1rem ;
+    
+    }
+    
+    
+    
+    .contact__content{
+        width: 100%;
+        padding: 5rem 0;
+    }    
 
+    .contact__content{
+        width: 100%;
+        padding: 5rem 0;
+    }
+    
+    .contact__content .contact__top h3{
+        font-size: 2rem;
+    }
+    
+    .contact__content .contact__top p{
+        font-size: 1.4rem;
+    }
+    
+    .contact__content .contact__bottom{
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    
+    .contact__content .contact__bottom .left__side{
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    
+    .contact__content .contact__bottom .left__side form input{
+        font-size: 1.4rem;
+    }
+    
+    .contact__content .contact__bottom .right__side{
+        width: 100%;
+        align-items: center;
+        margin-bottom: 10rem;
+        overflow: hidden;
+    }
+    
+    .contact__content .contact__bottom .right__side .content__part{
+        width: 100%;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        margin-left: 30%;
+    
+    }
+    
+    
+    .contact__content .contact__bottom .right__side img{
+        transform: scale(0.7,0.7);
+    }
+    
 
     
 footer{

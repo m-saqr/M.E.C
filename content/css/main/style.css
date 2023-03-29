@@ -10,6 +10,7 @@
     --blueColor1:rgba(35, 166, 240, 1);
     --blueColor2:#184C99;
     --blueColor3:#023246;
+    --blueColor4:rgb(143, 181, 248);
     --white:#ffffff;
     --black:#000000;
 }
@@ -463,7 +464,120 @@ overflow: hidden;
 
 /* end section one  */
 
-/*  contact us  */
+.reviews{
+    height: 700px;
+    background-color:var(--blueColor4);
+}
+
+.reviews__content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+
+}
+
+.reviews__content .reviews__top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    padding-bottom: 5rem;
+}
+
+
+.reviews__content .reviews__top h3{
+    font-size: 2.8rem;
+}
+
+.reviews__content .reviews__top p{
+    font-size: 1.6rem;
+    color: #ffffff80;
+}
+
+
+
+.reviews__slider .carousel-inner{
+    display: flex;
+    border: 1px solid black;
+}
+
+
+/* up backround */
+
+.up-background{
+    width: 80%;
+    margin: auto;
+    padding: 7rem 0;
+    padding-top: 1rem;
+
+}
+
+.up-background__media{
+    width: 80%;
+    margin: auto;
+    padding: 7rem 0;
+    padding-top: 1rem;
+    display: none;
+}
+
+.up-background__media .slide1_group{
+    width: 100%;
+}
+
+.up-background__media  .pic-slider{
+    height: 100%;
+}
+
+.slide1_4{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+ .slide1_group{
+    width:24%;
+    margin-bottom: 5rem;
+    
+    }
+    
+    
+
+   .pic-slider{
+    overflow: hidden;
+    height:28.2rem;
+   }
+
+   .pic-slider button{
+    border: none;
+    outline: none;
+
+   }
+
+
+.slide1_group img{
+        width: 100%;
+    }
+
+
+    
+
+
+.up-background .icon-slider svg{
+    font-size: 3rem;
+    color: var(--sixthColor);
+
+}
+
+.up-background .carousel-control-next, .carousel-control-prev {
+    width: 7%;
+
+}
+    
+/* end up background  */
+    
 .contact{
     background-color: var(--blueColor2);
 }
