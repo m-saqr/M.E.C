@@ -96,8 +96,106 @@ header{
 
 }
 
+.courses__content .courses__top{
+    padding: 50px 0;
+}
 
-.up-background{
+.courses__content .courses__top,
+.reviews__content .reviews__top,
+.instractor__content .instractor__top
+{
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.courses__content .courses__top h3{
+    font-size: 2rem;
+}
+
+.courses__content .courses__top p{
+    font-size: 1.4rem;
+    color: #ffffff80;
+}
+
+.reviews__content .reviews__top h3{
+    font-size: 2rem;
+}
+
+.reviews__content .reviews__top p{
+    font-size: 1.4rem;
+    color: #ffffff80;
+}
+
+.gallery__content .gallery__top h3{
+    font-size: 2rem;
+}
+
+.gallery__content .gallery__top p{
+    font-size: 1.4rem;
+    color: #ffffff80;
+}
+
+.instractor__content .instractor__top h3{
+    font-size: 2rem;
+}
+
+.instractor__content .instractor__top p{
+    font-size: 1.4rem;
+    color: #ffffff80;
+}
+
+
+
+
+
+.courses{
+    height: 100%;
+}
+
+.instractor{
+    height: 100%;
+}
+
+.card___section3 .card h5{
+    font-size: 1.4rem;
+
+}
+
+.card___section3 .card p{
+    font-size: 1rem;
+}
+
+.card___section3 .card{
+    width: 100%;
+    border-radius: 10px 0 0 0;
+
+}
+
+.card___section3 .card img{
+    border-radius:0;
+}
+
+.card___section3 .card .btn{
+    font-size: 1rem;
+}
+
+.up-background .slide1_group{
+   width: 49%;
+}
+.courses__content {
+    width: 100%;
+}
+
+.instractor__content {
+    width: 100%;
+}
+
+.slide1_4{
+    flex-wrap: wrap;
+}
+
+.reviews .up-background{
     display: none;
 }
 
@@ -105,6 +203,11 @@ header{
     display: block;
 }
 
+
+.gallery__content .gallery__bottom .box{
+    width: 49%;
+    margin-bottom: 2rem;
+}
 
 .contact__content{
     width: 100%;
@@ -336,6 +439,48 @@ footer .ul4__top li {
     }
     
 
+    
+    .courses{
+        height: 100%;
+    }
+    
+    .instractor{
+        height: 100%;
+    }
+    
+    .card___section3 .card h5{
+        font-size: 1.4rem;
+    
+    }
+    
+    .card___section3 .card p{
+        font-size: 1rem;
+    }
+    
+    .card___section3 .card{
+        width: 100%;
+    
+    }
+    
+    .card___section3 .card .btn{
+        font-size: 1rem;
+    }
+    
+    .up-background .slide1_group{
+       width: 49%;
+    }
+    .courses__content {
+        width: 100%;
+    }
+    
+    .instractor__content {
+        width: 100%;
+    }
+    
+    .slide1_4{
+        flex-wrap: wrap;
+    }
+    
     
 footer{
     height: 100%;
